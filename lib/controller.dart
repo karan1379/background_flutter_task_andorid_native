@@ -8,6 +8,7 @@ class LocationController extends GetxController {
   RxBool isLoading = false.obs;
   RxString errorMessage = ''.obs;
 
+
   late MethodChannelClass methodChannelClass;
 
   @override
